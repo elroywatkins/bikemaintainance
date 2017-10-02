@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Make:</strong>
+  <%= @bike.make %>
+</p>
+
+<p>
+  <strong>Size:</strong>
+  <%= @bike.size %>
+</p>
+
+<p>
+  <strong>Ownername:</strong>
+  <%= @bike.ownername %>
+</p>
+
+<p>
+  <strong>String:</strong>
+  <%= @bike.string %>
+</p>
+
+<%= link_to 'Edit', edit_bike_path(@bike) %> |
+<%= link_to 'Back', bikes_path %>
